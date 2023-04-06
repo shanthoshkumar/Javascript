@@ -1,0 +1,6 @@
+Debouncing v/s throttling -  Write code for debouncing
+Create polyfill for bind
+Array mutation v/s non mutating behaviour - https://vtechguys.medium.com/javascript-array-methods-mutating-vs-non-mutating-8606d9b78c77
+Prototypal inheritance in js
+Event bubbling vs capturing?
+Cookie, local storage, session storage  - write code for all

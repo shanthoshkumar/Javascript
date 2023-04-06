@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.image > img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.thumbnails{
+    display: flex;
+    max-width: 1000px;
+    overflow: auto;
+    column-gap: 5px;
+}
+
+.thumbnails > img{
+   height: 100px;
+}
+
+.focusedThumbnail {
+    border: 5px solid grey;
+}

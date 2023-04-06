@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    width: 800px;
+    height: 400px;
+    background-color: brown;
+    /*  */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.flex-container > div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box1{
+    background-color: aqua;
+    /* align-self:flex-start */
+    /* flex-shrink: 0;
+    order: 3; */
+}
+
+.box2{
+    background-color: yellow;
+    /* align-self: center; */
+    /* flex-grow: 1;
+    order: 1; */
+}
+
+.box3{
+    background-color: blanchedalmond;
+    /* align-self: flex-end; */
+    /* flex-grow: 2;
+    order: 2; */
+    /* flex-basis: 50px; */
+}
